@@ -1,0 +1,60 @@
+.cat-menu {
+    margin: 0 10px;
+    color: rgba(2, 6, 12, 0.75);
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    margin: 1em 0 2em 0;
+}
+
+.menu-item-details {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.menu-item-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-item-price {
+    color: green;
+    font-size: 20px;
+}
+
+.menu-item-description {
+    font-size: 15px;
+}
+
+.menu-item-photo {
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+}
+
+.menu-item-photo img {
+    width: 190px;
+    border-radius: inherit;
+    height: 170px;
+    cursor: pointer;
+}
+.menu-item-add-btn {
+    position: absolute;
+    bottom: -5;
+    left: 23%;
+    padding: 0.5em 1.5em;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(27, 166, 114);
+    border: 0.5px solid rgba(2, 6, 12, 0.3);
+    cursor: pointer;
+}
+.menu-item-add-btn:hover {
+    background-color: lightgrey;
+}

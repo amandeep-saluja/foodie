@@ -1,0 +1,20 @@
+.restaurant {
+    margin: 10px 30px;
+}
+
+.rest {
+}
+
+.photo {
+    height: 15em;
+    width: 20em;
+}
+
+.photo img {
+    height: inherit;
+    width: inherit;
+}
+.name {
+    font-size: 30px;
+    font-weight: bold;
+}

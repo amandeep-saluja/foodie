@@ -1,0 +1,25 @@
+.category {
+    width: 100%;
+    min-width: 100%;
+}
+
+.accordian {
+    margin-top: 2em;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cat-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.expand-btn {
+    width: 40px;
+    font-weight: bold;
+}

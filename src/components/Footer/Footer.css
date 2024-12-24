@@ -1,0 +1,23 @@
+.footer {
+    background-color: beige;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo {
+}
+
+.logo {
+    width: 4em;
+}
+
+.copyright-msg {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.links {
+    cursor: pointer;
+}
