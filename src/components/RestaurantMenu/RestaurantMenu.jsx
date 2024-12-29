@@ -26,7 +26,7 @@ const RestaurantMenu = () => {
 
     const filteredCategories = categories.filter(
         (category) =>
-            category.card.card['@type'] ==
+            category.card.card['@type'] ===
             'type.googleapis.com/swiggy.presentation.food.v2.ItemCategory'
     );
 

@@ -10,8 +10,8 @@ const RestaurantCard = (props) => {
         props.rest.info.locality + ', ' + props.rest.info?.areaName;
     return (
         <div
-            className="restaurant"
-            data-rest-id={props.rest.info.id}
+            className="restaurant w-96"
+            data-testid="restCard"
             onClick={() => {
                 console.log();
             }}

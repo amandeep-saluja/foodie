@@ -6,7 +6,6 @@ import { useSelector, useDispatch } from 'react-redux';
 const Cart = () => {
     const items = useSelector((store) => store.cart.items);
     const dispatch = useDispatch();
-    console.log(items);
     return (
         <div className="cart-container">
             <div className="cart-label">Cart</div>

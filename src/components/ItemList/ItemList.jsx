@@ -12,7 +12,7 @@ const ItemList = ({ itemCards }) => {
     return (
         <div className="cat-menu">
             {itemCards?.map((item, idx) => (
-                <div className="menu-item" key={idx}>
+                <div className="menu-item" key={idx} data-testid="foodItems">
                     <div className="menu-item-details">
                         <div className="menu-item-name">
                             {item.card.info.name}
